@@ -1,0 +1,73 @@
+@media screen and (max-width: 992px) {
+  * {
+    background-color: #e7f5ff;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    border: 15px solid #1c7ed6;
+    gap: 0px;
+  }
+  .goals {
+  }
+  .goals li {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .scopes {
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10x;
+  }
+
+  .team {
+  }
+  .primary {
+  }
+  .timeline {
+  }
+  .goals,
+  .scopes,
+  .team,
+  .primary,
+  .timeline {
+    border: 10px solid #1c7ed6;
+  }
+
+  h1 {
+    border-bottom: 1px solid #ced4da;
+    font-size: larger;
+    color: #339af0;
+    margin-left: 20px;
+  }
+  .icon-1 {
+    width: 40px;
+    color: #495057;
+  }
+  .icon {
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+  }
+  /* tạo khối tròn */
+  .container-number {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border: 1px solid #343a40;
+    border-radius: 50%;
+    background-color: #9775fa;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0 0 0 5px;
+    margin-left: 10px;
+  }
+}
